@@ -37,7 +37,7 @@ mkl-random==1.1.0
 mkl-service==2.3.0
 networkx==2.4
 # Editable install with no version control (nlg-eval==2.3)
--e /home/wangchi/ImageCaption/caption/nlg-eval-master
+-e /home/wangchi_data/caption/nlg-eval-master
 nltk==3.4.5
 numpy==1.17.4
 oauthlib==3.1.0

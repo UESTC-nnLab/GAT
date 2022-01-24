@@ -64,8 +64,10 @@ python train.py --id $id \
     --language_eval 1 \
     --val_images_use -1 \
     --save_checkpoint_every 3000 \
-    --start_from log/log_$id \
-    --checkpoint_path log/log_$id \
+    # --start_from log/log_$id \
+    --start_from "$start_from" \
+    # --checkpoint_path log/log_$id \ 
+    --checkpoint_path "$start_from"\
     --learning_rate 5e-5 \
     --max_epochs 60 \
     --self_critical_after 0 \
